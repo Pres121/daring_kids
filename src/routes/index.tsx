@@ -50,9 +50,9 @@ const stats = [
 ];
 
 const testimonials = [
-  { name: "Erin Dokidis", role: "Parent of a preschooler", quote: "My daughter actually asks to go to school on weekends. The teachers genuinely love what they do — it shows in everything." },
-  { name: "Marcus Lee", role: "Father of Ella, Reception", quote: "We were so nervous about starting school. Daring Kids Academy made the transition magical for our whole family." },
-  { name: "Priya Shah", role: "Mum of twins, Nursery", quote: "Small classes, big heart. My twins are thriving and have already made best friends." },
+  { name: "Mr Evance Ndelemani", role: "Chairman of PTA", quote: "A child's success is greatest when parents, teachers, and the community work together as one team." },
+  { name: "Mrs Milica Edwin mbawa", role: "Secretary of PTA", quote: "Open communication and active participation help create a positive and supportive learning environment for our children." },
+ { name: "Mr Noah Khuziwaduk", role: "Vice Secretary of PTA", quote: "Every contribution, no matter how small, helps us build a stronger school and a better future for our children." },
 ];
 
 function Index() {
@@ -111,7 +111,7 @@ function Index() {
               </div>
               <div>
                 <div className="text-xs text-muted-foreground">Today's activity</div>
-                <div className="font-semibold text-sm">Rainbow Painting!</div>
+                <div className="font-semibold text-sm">Sports day</div>
               </div>
             </div>
           </div>
@@ -126,7 +126,7 @@ function Index() {
             A caring home for your child's first big adventures
           </h2>
           <p className="mt-5 text-lg text-muted-foreground">
-            At Daring Kids Academywe believe early childhood is sacred. Our mission is simple: give every little learner a place where they feel safe, loved, challenged and free to be exactly who they are.
+            At Daring Kids Academy we believe early childhood is sacred. Our mission is simple: give every little learner a place where they feel safe, loved, challenged and free to be exactly who they are.
           </p>
         </div>
       </section>
@@ -136,7 +136,7 @@ function Index() {
         <div className="mx-auto max-w-7xl px-5">
           <div className="text-center max-w-2xl mx-auto">
             <p className="font-hand text-2xl text-[var(--sky)]">Why parents choose us</p>
-            <h2 className="text-3xl md:text-5xl font-bold mt-2">Six reasons to love Daring Kids</h2>
+            <h2 className="text-3xl md:text-5xl font-bold mt-2">Six reasons to love Daring Kids Academy</h2>
           </div>
           <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {reasons.map((r, i) => (

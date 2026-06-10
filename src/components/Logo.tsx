@@ -8,7 +8,7 @@ export function Logo() {
         <span className="absolute -top-1 -right-1 h-3 w-3 rounded-full bg-[var(--sunny)] border-2 border-white" />
       </span>
       <div className="leading-tight">
-        <div className="font-display text-xl font-bold tracking-tight text-foreground">Daring Kids</div>
+        <div className="font-display text-xl font-bold tracking-tight text-foreground">Daring Kids Academy</div>
         <div className="font-hand text-xs text-[var(--coral)] -mt-1">little minds, big dreams</div>
       </div>
     </Link>

@@ -11,7 +11,7 @@ export const Route = createFileRoute("/about")({
     meta: [
       { title: "About Us — Daring Kids Academy— Junior School" },
       { name: "description", content: "Meet the teachers, mission and values behind Daring Kids Academy— a caring junior school for Nursery through Grade 1." },
-      { property: "og:title", content: "About Daring Kids" },
+      { property: "og:title", content: "About Daring Kids Academy" },
       { property: "og:description", content: "Our story, mission, values, teachers and facilities." },
     ],
     links: [{ rel: "canonical", href: "/about" }],
@@ -27,17 +27,13 @@ const values = [
 ];
 
 const teachers = [
-  { name: "Amara Okonkwo", role: "Head Teacher", initial: "A", color: "var(--sky)" },
-  { name: "Kofi Mensah", role: "Sports & Movement", initial: "K", color: "var(--leaf)" },
-  { name: "Priya Shah", role: "Reception Lead", initial: "P", color: "var(--coral)" },
-  { name: "Ethan Reyes", role: "Grade 1 Lead", initial: "E", color: "var(--grape)" },
-  { name: "Lola Bennett", role: "Music & Drama", initial: "L", color: "var(--sunny)" },
-  { name: "Sofia Marin", role: "Nursery Lead", initial: "S", color: "var(--sky)" },
+  { name: "Mrs Ruth Chimzere", role: "Director of Daring Kids Academy", quote: "I founded this school with a vision to provide quality early childhood education that nurtures young minds, builds strong character, and prepares every child for a bright future." },
+  { name: "Mr Aubrey Chimzere", role: "Executive Advisor", quote: "Good leadership, proper planning, and accountability ensure that our school continues to grow and serve children effectively" },
+  { name: "Mr Goliati", role: "English Teacher", initial: "A", color: "var(--sky)" },
+  { name: "Mr Banda", role: "Math Teacher", initial: "K", color: "var(--leaf)" },
 ];
 
 const facilities = [
-  { icon: BookOpen, title: "Library Nook", text: "200+ inclusive picture books in a cosy reading corner." },
-  { icon: Palette, title: "Art Studio", text: "Easels, clay, recycled materials — mess is welcomed here." },
   { icon: Trees, title: "Garden Playground", text: "A safe outdoor space with shade, sand and growing beds." },
   { icon: Bike, title: "Movement Hall", text: "Ride, climb, balance and dance — rainy-day approved." },
 ];
@@ -57,33 +53,12 @@ function AboutPage() {
             </span> and a little daring.
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-2xl mx-auto">
-            Daring Kids Academy opened its doors in 2014 with one classroom, twelve children and a wild idea: early childhood deserves the very best of us.
+            Daring Kids Academy opened its doors in 2025 with one classroom, 2 children and a wild idea: early childhood deserves the very best of us.
           </p>
         </div>
       </section>
 
-      {/* HISTORY + IMAGE */}
-      <section className="py-12">
-        <div className="mx-auto max-w-7xl px-5 grid lg:grid-cols-2 gap-12 items-center">
-          <div className="relative">
-            <div className="blob overflow-hidden ring-4 ring-white shadow-2xl">
-              <img src={teachersImg} alt="Teacher reading to children" loading="lazy" width={1200} height={900} className="w-full h-full object-cover" />
-            </div>
-            <Heart className="absolute -top-4 -right-2 h-10 w-10 text-[var(--coral)] animate-float" />
-          </div>
-          <div>
-            <p className="font-hand text-xl text-[var(--leaf)]">Where we started</p>
-            <h2 className="text-3xl md:text-4xl font-bold mt-1">A decade of joyful learning</h2>
-            <p className="mt-4 text-muted-foreground leading-relaxed">
-              From a single rented room in 2014 to a thriving campus today, Daring Kids Academyhas grown one happy family at a time. We've stayed small on purpose — small classes, big attention.
-            </p>
-            <p className="mt-4 text-muted-foreground leading-relaxed">
-              Ten years on, our first graduates are now in high school, and many still come back to read to our nursery class. That's the kind of community we are.
-            </p>
-          </div>
-        </div>
-      </section>
-
+   
       {/* MISSION VISION */}
       <section className="py-16">
         <div className="mx-auto max-w-7xl px-5 grid md:grid-cols-2 gap-6">

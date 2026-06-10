@@ -73,10 +73,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Daring Kids — Junior School for Nursery to Grade 1" },
+      { title: "Daring Kids Academy— Junior School for Nursery to Grade 1" },
       { name: "description", content: "A caring, joyful learning home for children from Nursery to Grade 1. Where little minds grow big dreams." },
       { name: "author", content: "Daring Kids" },
-      { property: "og:title", content: "Daring Kids — Junior School" },
+      { property: "og:title", content: "Daring Kids Academy— Junior School" },
       { property: "og:description", content: "Where little minds grow big dreams. Nursery, Reception and Grade 1 programs." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },

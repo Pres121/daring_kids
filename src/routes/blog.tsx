@@ -11,7 +11,7 @@ export const Route = createFileRoute("/blog")({
   head: () => ({
     meta: [
       { title: "Blog & Gallery — Daring Kids" },
-      { name: "description", content: "School events, classroom activities, sports days and trips at Daring Kids Junior School." },
+      { name: "description", content: "School events, classroom activities, sports days and trips at Daring Kids Academy Junior School." },
       { property: "og:title", content: "Blog & Gallery — Daring Kids" },
       { property: "og:description", content: "Latest news and moments from our classrooms." },
     ],
@@ -46,7 +46,7 @@ function BlogPage() {
               <Squiggle className="absolute -bottom-2 left-0 w-full text-[var(--sunny)]" />
             </span>
           </h1>
-          <p className="mt-5 text-lg text-muted-foreground">Stories, photos and updates from the Daring Kids family.</p>
+          <p className="mt-5 text-lg text-muted-foreground">Stories, photos and updates from the Daring Kids Academy family.</p>
         </div>
       </section>
 

@@ -37,7 +37,7 @@ export const posts: BlogPost[] = [
     content: [
       "What started as a simple art lesson turned into a whole week of joyful discovery. Children dipped fingers in paint, stamped with sponges and built collages with scraps from home.",
       "We focused on the process, not the product — every smile, splash and 'look what I made!' was a win. Parents will receive a small portfolio of work at the next pickup.",
-      "Big thanks to the families who donated fabric, buttons and recycled cardboard. Daring Kids is a community, and Rainbow Week proved it.",
+      "Big thanks to the families who donated fabric, buttons and recycled cardboard. Daring Kids Academy is a community, and Rainbow Week proved it.",
     ],
   },
   {
@@ -79,7 +79,7 @@ export const posts: BlogPost[] = [
     author: "Head Teacher",
     image: storyImg,
     content: [
-      "We're thrilled to unveil the Daring Kids Storytime Corner, a dedicated reading space for nursery through Grade 1.",
+      "We're thrilled to unveil the Daring Kids Academy Storytime Corner, a dedicated reading space for nursery through Grade 1.",
       "Funded by our spring fundraiser, the corner features a curated library of inclusive, age-appropriate picture books.",
     ],
   },

@@ -5,7 +5,8 @@
     "jsx": "react-jsx",
     "module": "ESNext",
     "lib": ["ES2022", "DOM", "DOM.Iterable"],
-    "types": ["vite/client"],
+    // Removed explicit vite/client types to avoid missing type definition errors
+    // Install vite types or add back if available in your environment
 
     /* Bundler mode */
     "moduleResolution": "Bundler",

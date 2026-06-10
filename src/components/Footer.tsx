@@ -53,7 +53,7 @@ export function Footer() {
 
       <div className="border-t border-border">
         <div className="mx-auto max-w-7xl px-5 py-5 text-xs text-muted-foreground flex flex-col md:flex-row justify-between gap-2">
-          <span>© {new Date().getFullYear()} Daring Kids Junior School. All rights reserved.</span>
+          <span>© {new Date().getFullYear()} Daring Kids Academy Junior School. All rights reserved.</span>
           <span>Made with <span className="text-[var(--coral)]">♥</span> for little learners.</span>
         </div>
       </div>

@@ -9,8 +9,8 @@ import teachersImg from "@/assets/about-teachers.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About Us — Daring Kids Junior School" },
-      { name: "description", content: "Meet the teachers, mission and values behind Daring Kids — a caring junior school for Nursery through Grade 1." },
+      { title: "About Us — Daring Kids Academy— Junior School" },
+      { name: "description", content: "Meet the teachers, mission and values behind Daring Kids Academy— a caring junior school for Nursery through Grade 1." },
       { property: "og:title", content: "About Daring Kids" },
       { property: "og:description", content: "Our story, mission, values, teachers and facilities." },
     ],
@@ -57,7 +57,7 @@ function AboutPage() {
             </span> and a little daring.
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-2xl mx-auto">
-            Daring Kids opened its doors in 2014 with one classroom, twelve children and a wild idea: early childhood deserves the very best of us.
+            Daring Kids Academy opened its doors in 2014 with one classroom, twelve children and a wild idea: early childhood deserves the very best of us.
           </p>
         </div>
       </section>
@@ -75,7 +75,7 @@ function AboutPage() {
             <p className="font-hand text-xl text-[var(--leaf)]">Where we started</p>
             <h2 className="text-3xl md:text-4xl font-bold mt-1">A decade of joyful learning</h2>
             <p className="mt-4 text-muted-foreground leading-relaxed">
-              From a single rented room in 2014 to a thriving campus today, Daring Kids has grown one happy family at a time. We've stayed small on purpose — small classes, big attention.
+              From a single rented room in 2014 to a thriving campus today, Daring Kids Academyhas grown one happy family at a time. We've stayed small on purpose — small classes, big attention.
             </p>
             <p className="mt-4 text-muted-foreground leading-relaxed">
               Ten years on, our first graduates are now in high school, and many still come back to read to our nursery class. That's the kind of community we are.

@@ -15,7 +15,7 @@ import { z } from "zod";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact Us — Daring Kids Junior School" },
+      { title: "Contact Us — Daring Kids Academy Junior School" },
       { name: "description", content: "Get in touch with Daring Kids. Visit our campus, book a tour or enroll your child." },
       { property: "og:title", content: "Contact Daring Kids" },
       { property: "og:description", content: "Reach out, book a tour, or enroll today." },
@@ -138,7 +138,7 @@ function ContactPage() {
           <div className="space-y-6">
             <div className="rounded-3xl overflow-hidden border border-border h-72 lg:h-96">
               <iframe
-                title="Daring Kids location"
+                title="Daring Kids Academy location"
                 src="https://maps.google.com/maps?q=lakeview&t=&z=13&ie=UTF8&iwloc=&output=embed"
                 className="w-full h-full"
                 loading="lazy"

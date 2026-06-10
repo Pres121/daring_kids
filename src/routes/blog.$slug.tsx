@@ -62,7 +62,7 @@ function PostPage() {
 
           <div className="mt-12 rounded-3xl bg-[var(--sky)]/10 border border-border p-8 text-center">
             <h3 className="text-2xl font-bold">Want to see it in person?</h3>
-            <p className="mt-2 text-muted-foreground">Come visit Daring Kids and meet our team.</p>
+            <p className="mt-2 text-muted-foreground">Come visit Daring Kids Academy and meet our team.</p>
             <Button asChild className="mt-5 rounded-full bg-[var(--coral)] hover:bg-[var(--coral)]/90 text-white">
               <Link to="/contact">Book a Tour</Link>
             </Button>

@@ -17,9 +17,9 @@ import { posts } from "@/lib/blog-data";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Daring Kids — Where Little Minds Grow Big Dreams" },
-      { name: "description", content: "Daring Kids is a caring, safe junior school for Nursery through Grade 1. Qualified teachers, small classes and joyful learning." },
-      { property: "og:title", content: "Daring Kids — Junior School" },
+      { title: "Daring Kids Academy— Where Little Minds Grow Big Dreams" },
+      { name: "description", content: "Daring Kids Academy is a caring, safe junior school for Nursery through Grade 1. Qualified teachers, small classes and joyful learning." },
+      { property: "og:title", content: "Daring Kids Academy— Junior School" },
       { property: "og:description", content: "A joyful, nurturing first-school experience for Nursery, Reception and Grade 1." },
     ],
     links: [{ rel: "canonical", href: "/" }],
@@ -51,7 +51,7 @@ const stats = [
 
 const testimonials = [
   { name: "Erin Dokidis", role: "Parent of a preschooler", quote: "My daughter actually asks to go to school on weekends. The teachers genuinely love what they do — it shows in everything." },
-  { name: "Marcus Lee", role: "Father of Ella, Reception", quote: "We were so nervous about starting school. Daring Kids made the transition magical for our whole family." },
+  { name: "Marcus Lee", role: "Father of Ella, Reception", quote: "We were so nervous about starting school. Daring Kids Academy made the transition magical for our whole family." },
   { name: "Priya Shah", role: "Mum of twins, Nursery", quote: "Small classes, big heart. My twins are thriving and have already made best friends." },
 ];
 
@@ -78,7 +78,7 @@ function Index() {
               </span> grow <span className="text-[var(--sky)]">big dreams</span>.
             </h1>
             <p className="mt-6 text-lg text-muted-foreground max-w-md">
-              Daring Kids is a warm, joyful junior school for Nursery through Grade 1. We blend play and purpose to give every child a brilliant start.
+              Daring Kids Academy is a warm, joyful junior school for Nursery through Grade 1. We blend play and purpose to give every child a brilliant start.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Button asChild size="lg" className="rounded-full bg-[var(--coral)] hover:bg-[var(--coral)]/90 text-white font-semibold px-7 h-12 shadow-[0_5px_0_oklch(0.55_0.2_25)]">
@@ -126,7 +126,7 @@ function Index() {
             A caring home for your child's first big adventures
           </h2>
           <p className="mt-5 text-lg text-muted-foreground">
-            At Daring Kids we believe early childhood is sacred. Our mission is simple: give every little learner a place where they feel safe, loved, challenged and free to be exactly who they are.
+            At Daring Kids Academywe believe early childhood is sacred. Our mission is simple: give every little learner a place where they feel safe, loved, challenged and free to be exactly who they are.
           </p>
         </div>
       </section>

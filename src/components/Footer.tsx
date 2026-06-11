@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
-import { Facebook, Tiktok , Mail, Phone, MapPin } from "lucide-react";
+import { Facebook, Mail, Phone, MapPin } from "lucide-react";
+import { FaTiktok } from "react-icons/fa";
 import { Logo } from "./Logo";
 
 export function Footer() {
@@ -12,7 +13,7 @@ export function Footer() {
             A caring, joyful learning home for children from Nursery to Grade 1.
           </p>
           <div className="flex gap-2">
-            {[Facebook, Tiktok].map((Icon, i) => (
+            {[Facebook, FaTiktok].map((Icon, i) => (
               <a key={i} href="#" aria-label="Social link"
                 className="grid h-9 w-9 place-items-center rounded-full bg-white text-[var(--sky)] hover:bg-[var(--sky)] hover:text-white transition-colors border border-border">
                 <Icon className="h-4 w-4" />

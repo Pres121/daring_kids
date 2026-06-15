@@ -133,9 +133,7 @@ function AboutPage() {
           <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {teachers.map((t, i) => (
               <div key={i} className="bg-card rounded-3xl p-6 border border-border flex items-center gap-4">
-                <div className="h-16 w-16 rounded-2xl grid place-items-center text-2xl font-bold text-white shadow-md" style={{ background: t.color }}>
-                  {t.initial}
-                </div>
+                <img src={t.image} alt={t.name} className="h-16 w-16 rounded-2xl object-cover shadow-md" />
                 <div>
                   <div className="font-bold text-lg">{t.name}</div>
                   <div className="text-sm text-muted-foreground">{t.role}</div>

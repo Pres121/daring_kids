@@ -8,6 +8,9 @@ import {
   Scripts,
 } from "@tanstack/react-router";
 import type { ReactNode } from "react";
+// @ts-ignore: side-effect CSS import without type declarations
+import "../styles.css";
+const appCss = "/styles.css";
 
 function NotFoundComponent() {
   return (
@@ -82,7 +85,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     links: [
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Handlee&display=swap",},
+        href: "" + appCss,},
     ],
   }),
   shellComponent: RootShell,

@@ -34,7 +34,7 @@ const schema = z.object({
 });
 
 const cards = [
-  { icon: Phone, color: "var(--sky)", title: "Call us", lines: ["(+1) 555-DARING", "Mon–Fri, 8am–4pm"] },
+  { icon: Phone, color: "var(--sky)", title: "Call us", lines: ["+265 888 287 808", "Mon–Fri, 8am–4pm"] },
   { icon: Mail, color: "var(--coral)", title: "Email us", lines: ["hello@daringkids.school", "We reply within 24h"] },
   { icon: MapPin, color: "var(--leaf)", title: "Visit us", lines: ["24 Sunshine Lane", "Lakeview District"] },
   { icon: Clock, color: "var(--grape)", title: "School hours", lines: ["Mon–Fri 8:00am–3:30pm", "Sat 9:00am–12:00pm"] },

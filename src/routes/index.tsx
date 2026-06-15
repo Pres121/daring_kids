@@ -33,8 +33,7 @@ const reasons = [
 ];
 
 const stats = [
-  { number: "320+", label: "Happy Students" },
-  { number: "28", label: "Caring Teachers" },
+  { number: "50+", label: "Happy Students" },
   { number: "40+", label: "Weekly Activities" },
   { number: "98%", label: "Parent Satisfaction" },
 ];
@@ -90,7 +89,7 @@ function Index() {
             <Heart className="absolute top-10 -right-2 h-8 w-8 text-[var(--coral)] animate-float" />
             <Star className="absolute bottom-4 -left-4 h-10 w-10 text-[var(--sunny)] animate-wiggle" />
             <div className="relative blob overflow-hidden bg-white shadow-2xl ring-4 ring-white">
-              <img src="/childpic.png" alt="Happy children learning at Daring Kids" width={1024} height={1024} className="w-full h-auto object-cover" />
+              <img src="/child.png" alt="Happy children learning at Daring Kids" width={1024} height={1024} className="w-full h-auto object-cover" />
             </div>
             <div className="absolute -bottom-4 -right-2 md:-right-6 rounded-2xl bg-white shadow-xl border border-border px-4 py-3 flex items-center gap-3 animate-float">
               <div className="h-10 w-10 rounded-xl bg-[var(--leaf)]/15 grid place-items-center">

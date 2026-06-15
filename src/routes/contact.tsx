@@ -147,7 +147,7 @@ function ContactPage() {
             <div className="rounded-3xl bg-[var(--sunny)]/15 border border-border p-6">
               <h3 className="font-bold text-lg">Ready to enroll?</h3>
               <p className="text-sm text-muted-foreground mt-1">Book a 30-minute campus tour to see our classrooms, meet teachers and ask anything.</p>
-              <a href="tel:+15553274464" className="mt-4 inline-block text-[var(--coral)] font-semibold">Call (+1) 555-DARING →</a>
+              <a href="tel:+265888287808" className="mt-4 inline-block text-[var(--coral)] font-semibold">Call +265 888 287 808 →</a>
             </div>
           </div>
         </div>

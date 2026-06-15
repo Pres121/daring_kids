@@ -4,6 +4,11 @@ import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Star, Heart, Squiggle } from "@/components/Doodles";
 import { Sparkles, Target, Eye, Heart as HeartIcon, Trees, BookOpen, Palette, Bike } from "lucide-react";
+import director from "../assets/director.jpeg";
+import advisor from "../assets/advisor.jpeg";
+import sirgoli from "../assets/sirgoli.png";
+import sirino from "../assets/sirino.png";
+import madam from "../assets/madamB.jpg";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -31,29 +36,29 @@ const teachers = [
     role: "Director of Daring Kids Academy",
     quote:
       "I founded this school with a vision to provide quality early childhood education that nurtures young minds, builds strong character, and prepares every child for a bright future.",
-    image: "/director.png",
+    image: director,
   },
   {
     name: "Mr Aubrey Chimzere",
     role: "Executive Advisor",
     quote:
       "Good leadership, proper planning, and accountability ensure that our school continues to grow and serve children effectively",
-    image: "/advisor.png",
+    image:advisor,
   },
   {
     name: "Mr Goliati",
     role: "English Teacher",
-    image: "/sirgoi.png",
+    image: sirgoli,
   },
   {
     name: "Mr Banda",
     role: "Math Teacher",
-    image: "/sirino.png",
+    image: sirino,
   },
   {
     name:"Mrs. Chipanangwe",
     role:"Daycare Assistant",
-    image:"/madamB.png"
+    image:madam,
   }
 ];
 const facilities = [

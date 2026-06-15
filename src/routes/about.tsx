@@ -4,7 +4,6 @@ import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Star, Heart, Squiggle } from "@/components/Doodles";
 import { Sparkles, Target, Eye, Heart as HeartIcon, Trees, BookOpen, Palette, Bike } from "lucide-react";
-import teachersImg from "@/assets/about-teachers.jpg";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -27,12 +26,36 @@ const values = [
 ];
 
 const teachers = [
-  { name: "Mrs Ruth Chimzere", role: "Director of Daring Kids Academy", quote: "I founded this school with a vision to provide quality early childhood education that nurtures young minds, builds strong character, and prepares every child for a bright future." },
-  { name: "Mr Aubrey Chimzere", role: "Executive Advisor", quote: "Good leadership, proper planning, and accountability ensure that our school continues to grow and serve children effectively" },
-  { name: "Mr Goliati", role: "English Teacher", initial: "A", color: "var(--sky)" },
-  { name: "Mr Banda", role: "Math Teacher", initial: "K", color: "var(--leaf)" },
+  {
+    name: "Mrs Ruth Chimzere",
+    role: "Director of Daring Kids Academy",
+    quote:
+      "I founded this school with a vision to provide quality early childhood education that nurtures young minds, builds strong character, and prepares every child for a bright future.",
+    image: "/director.png",
+  },
+  {
+    name: "Mr Aubrey Chimzere",
+    role: "Executive Advisor",
+    quote:
+      "Good leadership, proper planning, and accountability ensure that our school continues to grow and serve children effectively",
+    image: "/advisor.png",
+  },
+  {
+    name: "Mr Goliati",
+    role: "English Teacher",
+    image: "/sirgoi.png",
+  },
+  {
+    name: "Mr Banda",
+    role: "Math Teacher",
+    image: "/sirino.png",
+  },
+  {
+    name:"Mrs. Chipanangwe",
+    role:"Daycare Assistant",
+    image:"/madamB.png"
+  }
 ];
-
 const facilities = [
   { icon: Trees, title: "Garden Playground", text: "A safe outdoor space with shade, sand and growing beds." },
   { icon: Bike, title: "Movement Hall", text: "Ride, climb, balance and dance — rainy-day approved." },

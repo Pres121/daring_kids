@@ -1,9 +1,4 @@
-import artImg from "@/assets/blog-art.jpg";
-import sportsImg from "@/assets/blog-sports.jpg";
-import tripImg from "@/assets/blog-trip.jpg";
-import storyImg from "@/assets/blog-story.jpg";
-import stemImg from "@/assets/blog-stem.jpg";
-import musicImg from "@/assets/blog-music.jpg";
+
 
 export type BlogCategory =
   | "School Events"
@@ -33,7 +28,7 @@ export const posts: BlogPost[] = [
     category: "Classroom Activities",
     date: "May 12, 2025",
     author: "Mr Goliati",
-    image: artImg,
+    image: "/kidsteach.png",
     content: [
       "During breaks, students discuss homework, review class notes, solve problems together, or prepare for upcoming tests. Those who understand a topic well can assist classmates who may be struggling, creating a supportive and collaborative learning environment.",
     ],
@@ -46,7 +41,7 @@ export const posts: BlogPost[] = [
     category: "Sports Day",
     date: "April 28, 2025",
     author: "Mr. Goliati",
-    image: sportsImg,
+    image: "/sports.jpg",
     content: [
       "Sports Day is an exciting event that brings students together through friendly competition and teamwork. It provides an opportunity for learners to participate in various sporting activities, showcase their talents, and develop physical fitness.",
     ],
@@ -59,7 +54,7 @@ export const posts: BlogPost[] = [
     category: "Educational Trips",
     date: "April 9, 2025",
     author: "Ms. Priya",
-    image: tripImg,
+    image: "/sports1.png",
     content: [
       "Children participate in nursery rhymes, action songs, traditional dances, and music activities that help them develop physically, socially, and emotionally. These joyful experiences create a positive learning environment where every child can shine and build confidence from an early age",
     ],

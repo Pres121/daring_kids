@@ -8,10 +8,6 @@ import {
   ShieldCheck, GraduationCap, Sparkles, Users, Heart as HeartIcon, Gamepad2,
   ArrowRight, Quote,
 } from "lucide-react";
-import heroImg from "@/assets/hero-kids.jpg";
-import nurseryImg from "@/assets/program-nursery.jpg";
-import receptionImg from "@/assets/program-reception.jpg";
-import grade1Img from "@/assets/program-grade1.jpg";
 import { posts } from "@/lib/blog-data";
 
 export const Route = createFileRoute("/")({
@@ -34,12 +30,6 @@ const reasons = [
   { icon: Users, color: "var(--coral)", title: "Small Class Sizes", text: "Max 12 children per teacher so every little one is truly seen." },
   { icon: HeartIcon, color: "var(--grape)", title: "Child-Centred Learning", text: "We follow each child's curiosity and pace — no two days look the same." },
   { icon: Gamepad2, color: "var(--sky)", title: "Fun & Interactive", text: "Games, stories and hands-on discovery are how our learners thrive." },
-];
-
-const programs = [
-  { tag: "Ages 2–3", color: "var(--sunny)", title: "Nursery", text: "A gentle first step into school life — songs, sensory play, and lots of cuddles.", img: nurseryImg },
-  { tag: "Ages 4–5", color: "var(--leaf)", title: "Reception", text: "Early literacy, numbers and friendships blossom through play-based learning.", img: receptionImg },
-  { tag: "Ages 5–6", color: "var(--coral)", title: "Grade 1", text: "Confident readers and curious thinkers — Grade 1 builds skills for life.", img: grade1Img },
 ];
 
 const stats = [
@@ -68,9 +58,6 @@ function Index() {
         </div>
         <div className="mx-auto max-w-7xl px-5 grid lg:grid-cols-2 gap-12 items-center">
           <div className="relative">
-            <span className="inline-flex items-center gap-2 rounded-full bg-[var(--leaf)]/15 text-[var(--leaf)] px-4 py-1.5 text-sm font-semibold">
-              <Star className="h-4 w-4" /> Enrolling for the new term
-            </span>
             <h1 className="mt-5 font-display text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight">
               Where <span className="relative text-[var(--coral)]">
                 little minds
@@ -103,7 +90,7 @@ function Index() {
             <Heart className="absolute top-10 -right-2 h-8 w-8 text-[var(--coral)] animate-float" />
             <Star className="absolute bottom-4 -left-4 h-10 w-10 text-[var(--sunny)] animate-wiggle" />
             <div className="relative blob overflow-hidden bg-white shadow-2xl ring-4 ring-white">
-              <img src={heroImg} alt="Happy children learning at Daring Kids" width={1024} height={1024} className="w-full h-auto object-cover" />
+              <img src="/childpic.png" alt="Happy children learning at Daring Kids" width={1024} height={1024} className="w-full h-auto object-cover" />
             </div>
             <div className="absolute -bottom-4 -right-2 md:-right-6 rounded-2xl bg-white shadow-xl border border-border px-4 py-3 flex items-center gap-3 animate-float">
               <div className="h-10 w-10 rounded-xl bg-[var(--leaf)]/15 grid place-items-center">
@@ -163,23 +150,6 @@ function Index() {
             <p className="text-muted-foreground max-w-md">From first steps in Nursery to confident Grade 1 readers — we meet your child exactly where they are.</p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6">
-            {programs.map((p, i) => (
-              <article key={i} className="group rounded-3xl overflow-hidden bg-card border border-border shadow-sm hover:shadow-xl transition-shadow">
-                <div className="relative aspect-[4/3] overflow-hidden">
-                  <img src={p.img} alt={p.title} loading="lazy" width={800} height={600} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-                  <span className="absolute top-4 left-4 text-xs font-bold px-3 py-1 rounded-full text-white shadow" style={{ background: p.color }}>{p.tag}</span>
-                </div>
-                <div className="p-6">
-                  <h3 className="text-2xl font-bold">{p.title}</h3>
-                  <p className="mt-2 text-muted-foreground">{p.text}</p>
-                  <Link to="/about" className="mt-4 inline-flex items-center gap-1 font-semibold text-[var(--sky)]">
-                    Learn more <ArrowRight className="h-4 w-4" />
-                  </Link>
-                </div>
-              </article>
-            ))}
-          </div>
         </div>
       </section>
 

@@ -9,6 +9,7 @@ import {
   ArrowRight, Quote,
 } from "lucide-react";
 import { posts } from "@/lib/blog-data";
+import child from "../assets/childpic.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -25,10 +26,8 @@ export const Route = createFileRoute("/")({
 
 const reasons = [
   { icon: GraduationCap, color: "var(--sky)", title: "Qualified Teachers", text: "Early-years specialists with years of classroom experience and ongoing training." },
-  { icon: ShieldCheck, color: "var(--leaf)", title: "Safe Environment", text: "Secure campus, CCTV, allergy-aware kitchen and trained first-aid staff every day." },
   { icon: Sparkles, color: "var(--sunny)", title: "Creative Activities", text: "Art, music, drama and outdoor play woven into every single week." },
   { icon: Users, color: "var(--coral)", title: "Small Class Sizes", text: "Max 12 children per teacher so every little one is truly seen." },
-  { icon: HeartIcon, color: "var(--grape)", title: "Child-Centred Learning", text: "We follow each child's curiosity and pace — no two days look the same." },
   { icon: Gamepad2, color: "var(--sky)", title: "Fun & Interactive", text: "Games, stories and hands-on discovery are how our learners thrive." },
 ];
 
@@ -80,7 +79,7 @@ function Index() {
                   <span key={i} className="h-8 w-8 rounded-full border-2 border-background" style={{ background: c }} />
                 ))}
               </div>
-              <span><strong className="text-foreground">320+ families</strong> trust us with their little ones</span>
+              <span><strong className="text-foreground">50+ families</strong> trust us with their little ones</span>
             </div>
           </div>
 
@@ -89,7 +88,7 @@ function Index() {
             <Heart className="absolute top-10 -right-2 h-8 w-8 text-[var(--coral)] animate-float" />
             <Star className="absolute bottom-4 -left-4 h-10 w-10 text-[var(--sunny)] animate-wiggle" />
             <div className="relative blob overflow-hidden bg-white shadow-2xl ring-4 ring-white">
-              <img src="/child.png" alt="Happy children learning at Daring Kids" width={1024} height={1024} className="w-full h-auto object-cover" />
+              <img src={child} alt="Happy children learning at Daring Kids" width={1024} height={1024} className="w-full h-auto object-cover" />
             </div>
             <div className="absolute -bottom-4 -right-2 md:-right-6 rounded-2xl bg-white shadow-xl border border-border px-4 py-3 flex items-center gap-3 animate-float">
               <div className="h-10 w-10 rounded-xl bg-[var(--leaf)]/15 grid place-items-center">

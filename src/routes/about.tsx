@@ -8,7 +8,7 @@ import director from "../assets/director.jpeg";
 import advisor from "../assets/advisor.jpeg";
 import sirgoli from "../assets/sirgoli.png";
 import sirino from "../assets/sirino.png";
-import madam from "../assets/madamB.jpg";
+import madam from "../assets/madamB.png";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -32,31 +32,31 @@ const values = [
 
 const teachers = [
   {
-    name: "Mrs Ruth Chimzere",
+    name: "Mrs. Ruth Chimzere",
     role: "Director of Daring Kids Academy",
     quote:
       "I founded this school with a vision to provide quality early childhood education that nurtures young minds, builds strong character, and prepares every child for a bright future.",
     image: director,
   },
   {
-    name: "Mr Aubrey Chimzere",
+    name: "Mr. Aubrey Chimzere",
     role: "Executive Advisor",
     quote:
       "Good leadership, proper planning, and accountability ensure that our school continues to grow and serve children effectively",
     image:advisor,
   },
   {
-    name: "Mr Goliati",
+    name: "Mr. Justin Goliati",
     role: "English Teacher",
     image: sirgoli,
   },
   {
-    name: "Mr Banda",
+    name: "Mr. Innocent Banda",
     role: "Math Teacher",
     image: sirino,
   },
   {
-    name:"Mrs. Chipanangwe",
+    name:"Mrs. Bertha Chipanangwe",
     role:"Daycare Assistant",
     image:madam,
   }

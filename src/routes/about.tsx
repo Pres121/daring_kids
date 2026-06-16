@@ -4,11 +4,11 @@ import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Star, Heart, Squiggle } from "@/components/Doodles";
 import { Sparkles, Target, Eye, Heart as HeartIcon, Trees, BookOpen, Palette, Bike } from "lucide-react";
-import director from "../assets/director.jpeg";
-import advisor from "../assets/advisor.jpeg";
-import sirgoli from "../assets/sirgoli.png";
-import sirino from "../assets/sirino.png";
-import madam from "../assets/madamB.png";
+import chinzele from "../assets/ziky.png";
+import chimzere from "../assets/chimzere.png";
+import goliati from "../assets/goliati.jpeg";
+import innocent from "../assets/innocent.jpeg";
+import bertha from "../assets/bertha.jpeg";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -36,29 +36,29 @@ const teachers = [
     role: "Director of Daring Kids Academy",
     quote:
       "I founded this school with a vision to provide quality early childhood education that nurtures young minds, builds strong character, and prepares every child for a bright future.",
-    image: director,
+    image: chinzele,
   },
   {
     name: "Mr. Aubrey Chimzere",
     role: "Executive Advisor",
     quote:
       "Good leadership, proper planning, and accountability ensure that our school continues to grow and serve children effectively",
-    image:advisor,
+    image: chimzere,
   },
   {
     name: "Mr. Justin Goliati",
-    role: "English Teacher",
-    image: sirgoli,
+    role: " Teacher",
+    image: goliati,
   },
   {
     name: "Mr. Innocent Banda",
-    role: "Math Teacher",
-    image: sirino,
+    role: "Teacher",
+    image: innocent,
   },
   {
     name:"Mrs. Bertha Chipanangwe",
     role:"Daycare Assistant",
-    image:madam,
+    image: bertha,
   }
 ];
 const facilities = [
@@ -129,26 +129,24 @@ function AboutPage() {
       </section>
 
       {/* TEACHERS */}
-      <section className="py-16">
-        <div className="mx-auto max-w-7xl px-5">
-          <div className="text-center max-w-2xl mx-auto">
-            <p className="font-hand text-2xl text-[var(--sky)]">Meet our team</p>
-            <h2 className="text-3xl md:text-5xl font-bold mt-1">Teachers who truly care</h2>
-          </div>
-          <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {teachers.map((t, i) => (
-              <div key={i} className="bg-card rounded-3xl p-6 border border-border flex items-center gap-4">
-                <img src={t.image} alt={t.name} className="h-16 w-16 rounded-2xl object-cover shadow-md" />
-                <div>
-                  <div className="font-bold text-lg">{t.name}</div>
-                  <div className="text-sm text-muted-foreground">{t.role}</div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
+     <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+  {teachers.map((t, i) => (
+    <div
+      key={i}
+      className="bg-card rounded-3xl p-6 border border-border flex items-center gap-6"
+    >
+      <img
+        src={t.image}
+        alt={t.name}
+        className="h-32 w-32 rounded-2xl object-cover shadow-md"
+      />
+      <div>
+        <div className="font-bold text-lg">{t.name}</div>
+        <div className="text-sm text-muted-foreground">{t.role}</div>
+      </div>
+    </div>
+  ))}
+</div>
       {/* FACILITIES */}
       <section className="py-16 bg-[var(--sunny)]/10">
         <div className="mx-auto max-w-7xl px-5">

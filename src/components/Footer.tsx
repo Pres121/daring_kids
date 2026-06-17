@@ -13,8 +13,11 @@ export function Footer() {
             A caring, joyful learning home for children from Nursery to Grade 1.
           </p>
           <div className="flex gap-2">
-            {[Facebook, FaTiktok].map((Icon, i) => (
-              <a key={i} href="#" aria-label="Social link"
+            {[
+              { Icon: Facebook, href: "https://www.facebook.com/share/1DrYYjtRuL/", label: "Facebook" },
+              { Icon: FaTiktok, href: "https://www.tiktok.com/@daring.kids.acade?_r=1&_d=el3ja4773m2cc8&sec_uid=MS4wLjABAAAA-RzYPy2KPg7jvu3jM5YvcLb_BUrtP4NwCLvf13QPdOfPXyHPWvDDXubRAjfTWNyw&share_author_id=7617160821122237441&sharer_language=en&source=h5_m&u_code=f2d9ejlel8d87d&timestamp=1781679716&user_id=7617160821122237441&sec_user_id=MS4wLjABAAAA-RzYPy2KPg7jvu3jM5YvcLb_BUrtP4NwCLvf13QPdOfPXyHPWvDDXubRAjfTWNyw&item_author_type=1&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7651721905669572372&share_link_id=0e39e727-b019-48fe-ab29-c5ee3c5aead1&share_app_id=1233&ugbiz_name=ACCOUNT&ug_btm=b8727%2Cb7360&social_share_type=5&enable_checksum=1", label: "TikTok" }
+            ].map(({ Icon, href, label }, i) => (
+              <a key={i} href={href} target="_blank" rel="noopener noreferrer" aria-label={label}
                 className="grid h-9 w-9 place-items-center rounded-full bg-white text-[var(--sky)] hover:bg-[var(--sky)] hover:text-white transition-colors border border-border">
                 <Icon className="h-4 w-4" />
               </a>

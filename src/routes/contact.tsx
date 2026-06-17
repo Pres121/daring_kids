@@ -139,7 +139,7 @@ function ContactPage() {
             <div className="rounded-3xl overflow-hidden border border-border h-72 lg:h-96">
               <iframe
                 title="Daring Kids Academy location"
-                src="https://maps.google.com/maps?q=lakeview&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                src="https://maps.google.com/maps?q=-13.707159,34.253358&t=&z=15&ie=UTF8&iwloc=&output=embed"
                 className="w-full h-full"
                 loading="lazy"
               />

@@ -57,7 +57,7 @@ const teachers = [
   },
   {
     name:"Mrs. Bertha Chipanangwe",
-    role:"Daycare Assistant",
+    role:"Caregiver",
     image: bertha,
   }
 ];

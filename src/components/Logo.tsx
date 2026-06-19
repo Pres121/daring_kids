@@ -7,10 +7,10 @@ export function Logo() {
       <img
         src={logo}
         alt="Daring Kids Academy Logo"
-        className="h-8 w-auto transition-transform group-hover:-rotate-6"
+        className="h-12 w-auto transition-transform group-hover:-rotate-6"
       />
 
-      <div className="leading-tight">
+      <div className="leading-tight text-sm md:text-base">
         <div className="font-display text-xl font-bold tracking-tight text-foreground">
           Daring Kids Academy
         </div>

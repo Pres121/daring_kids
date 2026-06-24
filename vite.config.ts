@@ -20,7 +20,7 @@ export default defineConfig({
   ],
   build: {
     rollupOptions: {
-      input: resolve(__dirname, "my-app/index.html"),
+      input: resolve(__dirname, "index.html"),
     },
   },
 });

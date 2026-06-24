@@ -7,6 +7,7 @@ import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
   base: "/", // Ensure proper base path for Netlify
+  optimizeDeps: { include: ["@emailjs/browser"] },
   plugins: [
     tsconfigPaths(),
     tailwindcss(),

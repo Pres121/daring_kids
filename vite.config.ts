@@ -6,6 +6,8 @@ import tailwindcss from "@tailwindcss/vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
+  base: "/", // Ensure proper base path for Netlify
+  optimizeDeps: { include: ["@emailjs/browser"] },
   plugins: [
     tsconfigPaths(),
     tailwindcss(),
@@ -18,7 +20,7 @@ export default defineConfig({
   ],
   build: {
     rollupOptions: {
-      input: resolve(__dirname, "my-app/index.html"),
+      input: resolve(__dirname, "index.html"),
     },
   },
 });
